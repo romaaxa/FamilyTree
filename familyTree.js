@@ -250,10 +250,11 @@ function FamilyTree() {
 			level: personNode.level
 		};
 
-		if (personNode.male)
-			visNode.color = "#97C2FC";
+		if (personNode.male) {
+			visNode.color = "#4682B4";
+		}
 		else
-			visNode.color = "#FB7E81";
+			visNode.color = "#FF69B4";
 
 		return visNode;
 	}

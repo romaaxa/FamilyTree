@@ -27,7 +27,7 @@ function draw() {
 				forceDirection: 'vertical',
 				roundness: 0.4
 			},
-			arrows: { to: true }
+			arrows: { to: false }
 		},
 		layout: {
 			hierarchical: {

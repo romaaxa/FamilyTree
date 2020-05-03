@@ -1,6 +1,7 @@
 body {
     font: 10pt sans;
-    background-color: white;
+    background-image: url(pics/back1.jpg);
+    background-size: 100%;
 }
 
 #network {
@@ -8,6 +9,8 @@ body {
     height: 650px;
     border: 1px solid black;
     float: left;
+    background-color: aliceblue;
+    border-radius: 15px 15px 15px 15px;
 }
 
 #text h2,
@@ -69,5 +72,17 @@ input {
 
 label {
     font-size: 20px;
-    color: grey;
+    color: black;
+}
+
+#primaty-buttons {
+    width: 85px;
+    height: 35px;
+    background-color: rgb(185, 174, 248);
+    border-radius: 15px 15px 15px 15px;
+}
+
+.primary {
+    text-align: center;
+    padding-top: 70px;
 }
